@@ -25,7 +25,7 @@ def analyze_sav(file_path, output_file="game_analysis.txt", min_length=3, contex
 
     matches = list(re.finditer(rb"[ -~]{%d,}" % min_length, data))
     lines = []
-    lines.append("=== Charlie Murder .SAV Analysis ===\n")
+    lines.append("=== Charlie Murder .SAV Analysis ===\n")  # Chaneg to your game nnme
 
     for m in matches:
         start = max(0, m.start() - context)
@@ -50,4 +50,5 @@ def analyze_sav(file_path, output_file="game_analysis.txt", min_length=3, contex
 
 
 if __name__ == "__main__":
-    analyze_sav("game.sav")
+    analyze_sav("game.sav") # Chaneg to your game file
+
