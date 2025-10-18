@@ -1,0 +1,6 @@
+# SaveScope Requirements
+# All libraries used in this project are built-in with Python 3.
+# You don’t need to install anything extra.
+
+# Recommended Python version
+python>=3.8
